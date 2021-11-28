@@ -44,8 +44,8 @@ all_restaurants = popeyes.append([kfc, wendys, chick_fil_a, carls_jr, mcdonalds,
 
 all_our_reviews = pd.merge(left=all_restaurants, right=review_df, left_on='business_id', right_on='business_id')
 
-all_our_reviews.to_csv('/Users/lukevandy/Documents/python-workspace/Stat628_Module3/all_chains_reviews.csv')
+all_our_reviews.to_csv('insert directory here')
 
 all_our_cs_reviews = all_our_reviews[all_our_reviews['text'].str.contains('chicken sandwich', flags=re.IGNORECASE, regex=True)]
 
-all_our_cs_reviews.to_csv('/Users/lukevandy/Documents/python-workspace/Stat628_Module3/all_chains_cs_reviews.csv')
+all_our_cs_reviews.to_csv('insert directory here')
