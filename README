@@ -1,0 +1,21 @@
+
+## Shiny App code
+The shiny app should be run with the following data files in the same directory: 
+all_chain_cs_reviews.csv, all_restaurants.csv, all_review_rating.csv, app_data.csv,
+cleaned_<chain name>.csv.
+
+## Cleaning code and EDA code
+our_franchises_cs_reviews.py: extract the 7 chains' related reviews from all the reviews. Conforming spellings.
+review_eda.ipynb: extract chicken sandwich reviews from all reviews and generate datasets for future uses.
+
+## TFIDF code
+tfidf.ipynb: contains all TF-IDF related analysis.
+
+## Sentiment Analysis code
+Sentiment-Analysis.ipynb: contains all sentiment analysis related code
+
+## Concordance Analysis code
+Concordance-Analysis.ipynb: contains all concordance analysis related code
+
+## Graphing & Plotting code
+create_wordclouds.rmd: generating all the wordclouds, which presents the result from previous steps.
